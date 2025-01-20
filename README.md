@@ -6,8 +6,8 @@ Follow steps in the link - https://airflow.apache.org/docs/apache-airflow/stable
 
 
 Install PGAdmin
-Code to add in yaml file
 
+Code to add in yaml file
 
 
 postgres:
@@ -26,7 +26,6 @@ postgres:
     restart: always
     ports:
       - "5432:5432"
-
 
 
 pgadmin:
