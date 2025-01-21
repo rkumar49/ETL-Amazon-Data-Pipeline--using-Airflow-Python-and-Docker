@@ -2,6 +2,7 @@
 🔗Important links and Code
 
 Install Airflow
+
 Follow steps in the link - https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
 
 
@@ -12,20 +13,35 @@ Code to add in yaml file
 
 
 postgres:
+    
     image: postgres:13
+    
     environment:
+      
       POSTGRES_USER: airflow
+      
       POSTGRES_PASSWORD: airflow
+      
       POSTGRES_DB: airflow
+    
     volumes:
+      
       - postgres-db-volume:/var/lib/postgresql/data
+    
     healthcheck:
+      
       test: ["CMD", "pg_isready", "-U", "airflow"]
+      
       interval: 10s
+      
       retries: 5
+      
       start_period: 5s
+    
     restart: always
+    
     ports:
+      
       - "5432:5432"
 
 
