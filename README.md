@@ -1,4 +1,12 @@
 
+****
+pipeline design 
+
+![image](https://github.com/user-attachments/assets/d3f4b04c-085c-459a-b24d-0f6e8106f95c)
+
+
+****
+
 🔗Important links and Code
 
 Install Airflow
@@ -64,9 +72,7 @@ pgadmin:
 
 
 
-pipeline design 
 
-![image](https://github.com/user-attachments/assets/d3f4b04c-085c-459a-b24d-0f6e8106f95c)
 
 
 
